@@ -1,14 +1,13 @@
-## Natural Language Processing (NLP) Exploration
+## Natural Language Processing (NLP)
 
 This repository is a collaborative space for learning and exploring Natural Language Processing (NLP) concepts, techniques, and models. It serves as a record of my journey into NLP, starting from the fundamentals and gradually progressing towards more advanced topics like attention models. Feel free to contribute to this repository by adding your own learning materials, suggesting improvements, or opening discussions on specific NLP concepts.
 
-**Prerequisites**
+### **Prerequisites**
 
 Must have SpaCy (https://spacy.io/) and Jupyter installed. To install (MacOS/Linux) use the following command:
 
 ```
 pip3 install spacy && python3 -m spacy download en_core_web_sm
-
 ```
 
 **Content:**
