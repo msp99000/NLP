@@ -4,10 +4,32 @@ This repository is a collaborative space for learning and exploring Natural Lang
 
 ### **Prerequisites**
 
-Must have SpaCy (https://spacy.io/) and Jupyter installed. To install (MacOS/Linux) use the following command:
+Must have SpaCy (https://spacy.io/) and NLTK installed. To install (MacOS/Linux) use the following command:
 
 ```
 pip3 install spacy && python3 -m spacy download en_core_web_sm
+```
+
+To install NLTK, use the following command:
+
+```
+pip3 install nltk && python3 -m nltk.downloader all
+```
+
+In case, you are having issues with NLTK packages installation, run the code below
+
+```
+import nltk
+import ssl
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
+nltk.download()
 ```
 
 **Content:**
